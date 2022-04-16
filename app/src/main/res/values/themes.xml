@@ -43,8 +43,24 @@
         <item name="android:textColor">@color/purple_700</item>
     </style>
 
+    <style name="funcland" parent="buttom">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="buttomland" parent="buttom">
+        <item name="android:textSize">15dp</item>
+    </style>
+
     <style name="func2" parent="buttom2">
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <style name="func2land" parent="buttom2">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="buttom2land" parent="buttom2">
+        <item name="android:textSize">15dp</item>
+    </style>
 </resources>

@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/drawable/serclebuttom.xml" value="0.191" />
         <entry key="app/src/main/res/drawable/serclebuttom2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/serclebutton_click.xml" value="0.191" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.14630889892578125" />
+        <entry key="app/src/main/res/layout-land/homework.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2732732732732733" />
         <entry key="app/src/main/res/layout/homework.xml" value="0.25" />
         <entry key="app/src/main/res/layout/hw.xml" value="0.15520833333333334" />

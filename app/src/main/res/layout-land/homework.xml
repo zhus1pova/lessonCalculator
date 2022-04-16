@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,9 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
-        android:textSize="20dp"
+        android:textSize="10dp"
         android:gravity="right"
         android:paddingRight="10dp"/>
+
 
     <TextView
         android:id="@+id/tvSan"
@@ -32,53 +33,55 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
+
         <Button
             android:id="@+id/btnc"
-            style="@style/func"
+            style="@style/func2land"
             android:text="C"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/plusminus"
             android:text="+/-"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/percent"
             android:text="%"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/bolu"
             android:text="/"/>
     </LinearLayout>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal">
 
+
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn7"
             android:text="7"/>
 
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn8"
             android:text="8"/>
 
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn9"
             android:text="9"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/btnX"
-            android:text="X"/>
-
+            android:text="*"/>
 
     </LinearLayout>
 
@@ -88,23 +91,25 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
+
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn4"
             android:text="4"/>
 
+
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn5"
             android:text="5"/>
 
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn6"
             android:text="6"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/minus"
             android:text="-"/>
     </LinearLayout>
@@ -115,23 +120,24 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
+
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn1"
             android:text="1"/>
 
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn2"
             android:text="2"/>
 
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn3"
             android:text="3"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/plus"
             android:text="+"/>
     </LinearLayout>
@@ -142,26 +148,26 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
+
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/btn0"
             android:text="0"/>
 
         <Button
-            style="@style/buttom"
+            style="@style/func2land"
             android:id="@+id/point"
             android:text="."/>
 
         <Button
             android:id="@+id/btnd"
-            style="@style/buttom"
+            style="@style/func2land"
             android:text="D"/>
 
         <Button
-            style="@style/func"
+            style="@style/func2land"
             android:id="@+id/eaual"
             android:text="="/>
     </LinearLayout>
 
 </LinearLayout>
-

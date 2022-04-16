@@ -26,7 +26,7 @@
 
 
         <Button
-            android:id="@+id/btC"
+            android:id="@+id/btnc"
             style="@style/func2"
             android:text="C"/>
 
@@ -151,8 +151,9 @@
             android:text="."/>
 
         <Button
+            android:id="@+id/btnd"
             style="@style/func2"
-            android:text=""/>
+            android:text="D"/>
 
         <Button
             style="@style/func2"
